@@ -31,7 +31,7 @@ public class searchServlet extends HttpServlet {
             Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
             String path = getServletContext().getRealPath(DATABASE_PATH);
             conn = DriverManager.getConnection(DRIVER_NAME + path, USER, PW);
-            String sql = "SELECT itemID FROM Item WHERE Name = ?";
+            String sql = "SELECT characterid FROM player WHERE Name = ?";
 
             pstmt = conn.prepareStatement(sql);
 

@@ -33,7 +33,7 @@ public class ListServlet extends HttpServlet {
 
             stmt = conn.createStatement();
             StringBuilder sql = new StringBuilder();
-            sql.append("SELECT Name FROM Item ");
+            sql.append("SELECT Name FROM Player ");
             sql.append("ORDER BY Name");
 
             rset = stmt.executeQuery(sql.toString());
