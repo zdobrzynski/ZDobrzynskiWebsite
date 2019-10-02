@@ -11,6 +11,9 @@
         </webroots>
       </configuration>
     </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -47,5 +50,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Spring" level="application" />
+    <orderEntry type="library" name="Spring MVC-4.3.18.RELEASE" level="project" />
   </component>
 </module>
